@@ -1,16 +1,34 @@
-# flutter_chatgpt_assistant
+# Voice Assistant with ChatGPT and DALL·E Integration
 
-A new Flutter project.
+Welcome to our Flutter-based Voice Assistant application, powered by the ChatGPT API and DALL·E API. This application allows users to interact with a virtual assistant by asking questions and generating images.
+
+## Features
+
+- **ChatGPT Integration**: Engage in natural conversations with the AI-powered chatbot. Ask questions, get answers, and have meaningful dialogues.
+
+- **DALL·E Integration**: Generate creative images by providing text descriptions or prompts to the DALL·E model. Explore the world of AI-generated art.
 
 ## Getting Started
 
-This project is a starting point for a Flutter application.
+Follow these steps to set up and run the application locally.
 
-A few resources to get you started if this is your first Flutter project:
+### Prerequisites
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+- [Flutter](https://flutter.dev/docs/get-started/install): Make sure you have Flutter installed on your system.
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+### Installation
+
+1. Clone this repository:
+
+   ```bash
+   git clone https://github.com/Sm69mu/flutte_chatgpt-assistant.git
+
+   cd your-voice-assistant-app
+
+   flutter pub get
+
+## Contributing
+
+We welcome contributions from the community! Feel free to open issues, submit pull requests, or provide feedback.
+
+![Home Screen](assets/screenshots/Screenshot_1694710008.png)
