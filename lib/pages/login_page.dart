@@ -12,7 +12,7 @@ class login_page extends StatefulWidget {
 
 // ignore: camel_case_types
 class _login_pageState extends State<login_page> {
-  String username = "";
+  var  username = "";
   bool changeButton = false;
   final _formkey = GlobalKey<FormState>();
   moveToHome(BuildContext context) async {

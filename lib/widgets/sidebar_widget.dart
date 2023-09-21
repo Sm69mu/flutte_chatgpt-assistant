@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-// import 'package:flutter_chatgpt_assistant/pages/login_page.dart';
+import 'package:flutter_chatgpt_assistant/pages/login_page.dart';
 import 'package:flutter_chatgpt_assistant/constants/consts.dart';
 
 // ignore: camel_case_types
@@ -20,7 +20,7 @@ class Sidebar_widget extends StatelessWidget {
                 child: UserAccountsDrawerHeader(
                     margin: EdgeInsets.zero,
                     decoration: BoxDecoration(color: Pallete.whiteColor),
-                    accountName: Text("Soumyajit",
+                    accountName: Text('Soumyajit',
                         style: TextStyle(
                             fontSize: 22,
                             fontFamily: 'Cera-Pro',
