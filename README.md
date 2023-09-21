@@ -27,8 +27,10 @@ Follow these steps to set up and run the application locally.
 
    flutter pub get
 
+![Home Screen](assets/screenshots/Screenshot_1694710008.png)
+
 ## Contributing
 
 We welcome contributions from the community! Feel free to open issues, submit pull requests, or provide feedback.
 
-![Home Screen](assets/screenshots/Screenshot_1694710008.png)
+

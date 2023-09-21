@@ -1,28 +1,31 @@
 import 'package:animate_do/animate_do.dart';
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_assistant/apis/openai_service.dart';
+import 'package:flutter_chatgpt_assistant/widgets/sidebar_widget.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:speech_to_text/speech_recognition_result.dart';
 import 'package:speech_to_text/speech_to_text.dart';
-import 'package:flutter_chatgpt_assistant/widgets/features_widgets.dart';
+import 'package:flutter_chatgpt_assistant/apis/openai_service.dart';
 import 'package:flutter_chatgpt_assistant/constants/consts.dart';
+import 'package:flutter_chatgpt_assistant/widgets/features_widgets.dart';
 
-class Homepage extends StatefulWidget {
-  const Homepage({Key? key, required String title}) : super(key: key);
+// ignore: camel_case_types
+class Home_page extends StatefulWidget {
+  const Home_page({Key? key, required String title}) : super(key: key);
 
   @override
 
   // ignore: library_private_types_in_public_api
-  _HomePageState createState() => _HomePageState();
+  _Home_pageState createState() => _Home_pageState();
 }
 
-class _HomePageState extends State<Homepage> {
+// ignore: camel_case_types
+class _Home_pageState extends State<Home_page> {
   final speechToText = SpeechToText();
   final FlutterTts flutterTts = FlutterTts();
   final OpenAiservice openAiservice = OpenAiservice();
   String? generatedContent;
   String? generatedimageUrl;
-  String name = "GPT-Assistant";
+  String name = "I am GPT";
   String lastWords = '';
   bool isMuted = false;
   int start = 200;
@@ -78,9 +81,9 @@ class _HomePageState extends State<Homepage> {
       //app bar
 
       appBar: AppBar(
-        title: BounceInDown(child: Text('Hi $name')),
+        title: BounceInDown(child: Text('Hi $name',)),
         centerTitle: true,
-        leading: const Icon(Icons.menu),
+        // leading: const Icon(Icons.menu),
         actions: [
           IconButton(
             icon: Icon(
@@ -93,6 +96,7 @@ class _HomePageState extends State<Homepage> {
           ),
         ],
       ),
+      drawer: const Sidebar_widget(),
       body: SingleChildScrollView(
         child: Column(
           children: [
