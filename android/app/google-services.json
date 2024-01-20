@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "325481393947",
+    "project_id": "flutter-chat-assistant",
+    "storage_bucket": "flutter-chat-assistant.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:325481393947:android:d26b4a941730c6bdcc2dbe",
+        "android_client_info": {
+          "package_name": "com.example.flutter_chatgpt_assistant"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBRmG4FCebiEXg35xvbOsaNoihxBxJs6A0"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

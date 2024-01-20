@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:flutter_chatgpt_assistant/pages/login_page.dart';
 import 'package:flutter_chatgpt_assistant/constants/consts.dart';
 
 // ignore: camel_case_types

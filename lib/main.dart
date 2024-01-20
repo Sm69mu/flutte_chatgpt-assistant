@@ -25,6 +25,6 @@ class MyApp extends StatelessWidget {
           MyRoutes.loginRoutes:(context) => const login_page()
         },
         
-        );
+    );
   }
 }

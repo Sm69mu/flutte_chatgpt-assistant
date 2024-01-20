@@ -1,5 +1,5 @@
 name: flutter_chatgpt_assistant
-description: A new Flutter project.
+description: A new flutter project.
 # The following line prevents the package from being accidentally published to
 # pub.dev using `flutter pub publish`. This is preferred for private packages.
 publish_to: 'none' # Remove this line if you wish to publish to pub.dev
@@ -40,6 +40,8 @@ dependencies:
   flutter_tts: ^3.8.3
   animate_do: ^3.1.2
   flutter_dotenv: ^5.1.0
+  firebase_core: ^2.24.2
+  cloud_firestore: ^4.14.0
 
 dev_dependencies:
   flutter_test:
@@ -67,7 +69,7 @@ flutter:
   assets:
     - assets/images/
     - assets/images/
-    - .env
+    # - .env
 
   # An image asset can refer to one or more resolution-specific "variants", see
   # https://flutter.dev/assets-and-images/#resolution-aware
